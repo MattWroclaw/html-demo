@@ -1,0 +1,27 @@
+.user-form{
+    margin: auto;
+    width: 75%;
+    /*border: 1px solid #000;*/
+    /*text-align: right;*/
+}
+
+table, tr, th, td{
+    border: 0px;
+}
+
+td{
+    width: 50%;
+    text-align: right;
+    vertical-align: top;
+    margin-right: 20%;
+}
+
+input{
+    width: 100%;
+}
+
+#form-table{
+    text-align: right;
+    border: 0;
+}
+

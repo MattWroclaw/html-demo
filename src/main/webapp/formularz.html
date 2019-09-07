@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style-form.css">
+    <title>Formularz</title>
+</head>
+<body>
+
+<div class="navigator">
+    <div class="nav-sec">
+        <img src="img/wireless-connectivity.svg" height="48">
+    </div>
+    <div class="nav-sec">
+        <a href="index.html">Home</a>
+    </div>
+    <div class="nav-sec">
+        <a href="formularz.html">Formularz</a>
+    </div>
+    <div class="nav-sec">
+        <a href="psiaki.html">Psiaki</a>
+    </div>
+</div>
+<div class="user-form">
+    <h2>Formularz:</h2>
+
+    <form>
+        <table id="form-table">
+            <tr>
+                <td >
+                    <label for="id-element">Identyfikator:</label>
+                </td>
+                <td>
+                    <input autofocus="autofocus" id="id-element" placeholder="1" type="number" min="0" max="999" step="1">
+                </td>
+            </tr>
+            <tr>
+                <td ><label for="id-imie">Imie:</label></td>
+                <td>
+                    <input id="id-imie" type="text" placeholder="Wpisz swoje imie...">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="id-nazwisko">Nazwisko:</label></td>
+                <td>
+                    <input id="id-nazwisko" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="id_data_urodzenia">Data urodzenia:</label></td>
+                <td>
+                    <input id="id_data_urodzenia" type="date">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="id_adres">Adres:</label></td>
+                <td>
+                    <input id="id_adres"  type="text">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="id_opis">Opis:</label></td>
+                <td>
+                    <textarea id="id_opis" rows="4" cols="50" type="text">
+                        Opis tutaj:
+                    </textarea>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+
+</body>
+</html>
