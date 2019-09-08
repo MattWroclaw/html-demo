@@ -21,7 +21,10 @@ input{
 }
 
 #form-table{
-    text-align: right;
     border: 0;
 }
 
+label{
+    padding: 20px;
+    text-align: right;
+}

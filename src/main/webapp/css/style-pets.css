@@ -1,7 +1,7 @@
 
 
 #tabela_psow {
-    width: 75%;
+    width: 100%;
     border-collapse: collapse;
 }
 tr:nth-child(even) {background: #CCC}
@@ -9,9 +9,10 @@ tr:nth-child(odd) {background: #FFF}
 
 
 .psiaczki{
-    width: 45%;
+    width: 50%;
     margin: auto;
 }
 td{
     text-align: center;
 }
+th {background-color: #FF0000}
